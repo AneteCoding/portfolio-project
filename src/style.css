@@ -10,34 +10,66 @@ body {
 
 h1 {
   font-family: var(--heading-font);
-  font-weight: 700;
   font-size: 96px;
+  line-height: 1.5;
 }
-
+h2 {
+  font-family: var(--heading-font);
+  font-size: 64px;
+}
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
 .anete {
-  text-align: center;
   background: var(--background-color);
   padding: 160px 20px;
+  text-align: center;
 }
 .anete h2 {
-  font-family: var(--text-font);
-  font-weight: normal;
-  font-size: 24px;
   color: #272142;
+  font-family: var(--text-font);
+  font-size: 24px;
+  font-weight: normal;
   line-height: 1.5;
 }
 .anete p {
+  color: #272142;
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
 }
 .btn-main {
   background: var(--branding-color);
   border-radius: 4px;
+  color: white;
   font-size: 18px;
-  font-weight: 500;
   line-height: 27px;
   padding: 18px 30px;
-  color: white;
+}
+.btn-outline {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+}
+.projects {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .anete {
+    padding: 80px 20px;
+  }
+  .projects {
+    padding: 0;
+    text-align: center;
+  }
 }
