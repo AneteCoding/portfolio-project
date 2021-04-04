@@ -33,12 +33,35 @@ p {
   font-weight: normal;
   line-height: 1.5;
 }
-.anete p {
+.projects p {
   color: #272142;
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+  opacity: 70%;
 }
+.about-anete {
+  padding: 160px 20px;
+}
+.about-anete h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+.about-anete h2 {
+  color: #272142;
+  font-family: var(--text-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.about-anete p {
+  color: #272142;
+  opacity: 70%;
+}
+.about-anete-content {
+  margin: 30px;
+}
+
 .btn-main {
   background: var(--branding-color);
   border-radius: 4px;
@@ -69,6 +92,10 @@ p {
     padding: 80px 20px;
   }
   .projects {
+    padding: 0;
+    text-align: center;
+  }
+  .about-anete {
     padding: 0;
     text-align: center;
   }
