@@ -2,7 +2,7 @@
   --branding-color: #38598b;
   --background-color: #e7eaf6;
   --heading-font: "Oxygen", sans-serif;
-  --text-font: "Karla", sans-serif;
+  --text-font: "Montserrat", sans-serif;
 }
 body {
   font-family: var(--text-font);
@@ -21,6 +21,7 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
 .anete {
   background: var(--background-color);
   padding: 160px 20px;
@@ -46,16 +47,24 @@ p {
 .content-container {
   padding: 160px 20px;
 }
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 85px;
 }
-.content-container h2 {
+.content h2 {
   color: #272142;
   font-family: var(--text-font);
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
+}
+.content h3 {
+  font-family: var(--text-font);
+  font-size: 24px;
+  line-height: 1.5;
+}
+.content p {
+  font-size: 14px;
 }
 .content-container p {
   color: #272142;
