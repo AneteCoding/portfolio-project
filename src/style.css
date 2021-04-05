@@ -1,6 +1,7 @@
 :root {
   --branding-color: #38598b;
   --background-color: #e7eaf6;
+  --secondary-color: #272142;
   --heading-font: "Oxygen", sans-serif;
   --text-font: "Montserrat", sans-serif;
 }
@@ -28,14 +29,14 @@ p {
   text-align: center;
 }
 .anete h2 {
-  color: #272142;
+  color: var(--secondary-color);
   font-family: var(--text-font);
   font-size: 24px;
   font-weight: normal;
   line-height: 1.5;
 }
 .anete.projects p {
-  color: #272142;
+  color: var(--secondary-color);
   font-size: 36px;
   font-weight: bold;
   margin: 0;
@@ -52,7 +53,7 @@ p {
   line-height: 85px;
 }
 .content h2 {
-  color: #272142;
+  color: var(--secondary-color);
   font-family: var(--text-font);
   font-size: 18px;
   font-weight: 700;
@@ -67,7 +68,7 @@ p {
   font-size: 14px;
 }
 .content-container p {
-  color: #272142;
+  color: var(--secondary-color);
   opacity: 70%;
 }
 .content {
@@ -89,6 +90,34 @@ p {
   line-height: 27px;
   padding: 18px 30px;
 }
+.logo {
+  max-height: 100px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  font-family: var(--text-font);
+  font-weight: 500;
+  list-style: none;
+  margin-left: 15px;
+  line-height: 100px;
+}
+nav a {
+  color: rgba(39, 33, 66, 0.7);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -107,5 +136,11 @@ p {
   .content-container {
     padding: 0;
     text-align: center;
+  }
+  .logo {
+    max-height: 60px;
+  }
+  nav a {
+    font-size: smaller;
   }
 }
