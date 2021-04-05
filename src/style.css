@@ -90,33 +90,11 @@ p {
   line-height: 27px;
   padding: 18px 30px;
 }
-.logo {
-  max-height: 100px;
+.active {
+  color: var(--branding-color) !important;
 }
-nav {
-  padding: 20px 0;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-nav li {
-  display: inline;
-  font-family: var(--text-font);
-  font-weight: 500;
-  list-style: none;
-  margin-left: 15px;
-  line-height: 100px;
-}
-nav a {
-  color: rgba(39, 33, 66, 0.7);
-  text-decoration: none;
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
+.navbar {
+  padding: 0 !important;
 }
 
 @media (max-width: 900px) {
@@ -136,11 +114,5 @@ nav li.active a {
   .content-container {
     padding: 0;
     text-align: center;
-  }
-  .logo {
-    max-height: 60px;
-  }
-  nav a {
-    font-size: smaller;
   }
 }

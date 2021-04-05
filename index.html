@@ -28,27 +28,37 @@
     <title>Front-end devoloper- Anete</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="src/images/logo.png" alt="logo" class="logo" />
-        </a>
-        <ul>
-          <li class="active">
-            <a href="/"> Home</a>
-          </li>
-          <li>
-            <a href="/about.html"> About</a>
-          </li>
-          <li>
-            <a href="/work.html"> Projects</a>
-          </li>
-          <li>
-            <a href="/contact.html"> Contact me</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="src/images/logo.png" alt="logo" class="w-50"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html">Projects</a>
+            </li>
+              <a class="nav-link" href="/contact.html">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="anete">
       <p>Hi, I am</p>
       <h1>Anete</h1>
