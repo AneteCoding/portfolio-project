@@ -27,6 +27,44 @@ p {
   font-size: 18px;
   line-height: 28px;
 }
+footer {
+  margin: 60px 0;
+}
+footer .inquiry {
+  background-color: var(--background-color);
+  border-radius: 20px;
+  padding: 50px 120px;
+}
+footer .inquiry h4 {
+  font-family: var(--heading-font);
+  font-size: 48px;
+  font-weight: 700;
+}
+footer .inquiry p {
+  margin: 0;
+  opacity: 70%;
+}
+footer .email {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+footer .email:hover {
+  color: var(--branding-color);
+}
+footer .socialmedia a {
+  background-color: var(--background-color);
+  border-radius: 50%;
+  color: var(--branding-color);
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 15px;
+  transition: all 100ms ease-in-out;
+}
+footer .socialmedia a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
 
 .anete {
   background: var(--background-color);
@@ -93,10 +131,13 @@ p {
 }
 
 @media (max-width: 900px) {
-  h1 {
+  h1,
+  .content h1 {
     font-size: 48px;
   }
-  h2 {
+  h2,
+  .projects h2,
+  .content h2 {
     font-size: 44px;
   }
   .anete {
