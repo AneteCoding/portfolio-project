@@ -131,6 +131,15 @@ footer .socialmedia a:hover {
 .align-left {
   margin-left: auto !important;
 }
+.harley {
+  width: 72%;
+  margin-left: 80px;
+  border-radius: 18px;
+}
+.wxapp {
+  border-radius: 18px;
+  margin-left: 20px;
+}
 
 @media (max-width: 900px) {
   h1,
