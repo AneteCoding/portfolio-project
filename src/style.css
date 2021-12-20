@@ -134,7 +134,9 @@ footer .socialmedia a:hover {
 .wxapp {
   border-radius: 18px;
 }
-
+.dictionaryapp {
+  border-radius: 18px;
+}
 @media (max-width: 900px) {
   h1,
   .anete h1,
